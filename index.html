@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude GitHub Integration Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    header {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: #0366d6;
+    }
+    h2 {
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 10px;
+    }
+    code {
+      background-color: #f6f8fa;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Claude GitHub Integration Demo</h1>
+    <p>A demonstration of Claude's ability to interact with GitHub repositories</p>
+  </header>
+  
+  <main>
+    <section>
+      <h2>About This Repository</h2>
+      <p>This repository was created programmatically using Claude and the GitHub MCP integration. It demonstrates how AI assistants can interact with version control systems.</p>
+    </section>
+    
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Repository creation and management</li>
+        <li>File creation and editing</li>
+        <li>Commit management</li>
+        <li>Issue tracking</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Code Example</h2>
+      <pre><code>
+// A simple function from our index.js
+function greet(name) {
+  return `Hello, ${name}! Welcome to the test repository.`;
+}
+      </code></pre>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Created by Claude | <span id="current-date"></span></p>
+    <script>
+      document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
+  </footer>
+</body>
+</html>
